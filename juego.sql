@@ -1,4 +1,4 @@
-juegojuegojuegoresultadosCREATE DATABASE IF NOT EXISTS juego;
+CREATE DATABASE IF NOT EXISTS juego;
 USE juego;
 
 CREATE TABLE resultados (
@@ -7,4 +7,4 @@ CREATE TABLE resultados (
   tiempo INT NOT NULL,
   movimientos INT NOT NULL,
   fecha DATETIME DEFAULT CURRENT_TIMESTAMP
-);juegoresultados
+)
